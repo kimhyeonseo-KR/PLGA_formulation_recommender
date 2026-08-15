@@ -1,0 +1,60 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables, secrets, and credentials
+.env
+.env.*
+credentials/
+secrets/
+*credential*.json
+*credentials*.json
+*.key
+*.pem
+
+# Editor-specific settings
+.vscode/
+
+# Data (documentation in data/ remains trackable)
+data/raw/
+data/interim/
+data/processed/
+
+# Models and artifacts
+models/
+artifacts/
+*.joblib
+*.pkl
+*.onnx
+*.pt
+*.pth
+
+# Temporary outputs and logs
+outputs/
+tmp/
+temp/
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
